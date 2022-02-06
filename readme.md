@@ -1,13 +1,23 @@
 <h1 align="center">Facebook Sign In</h1>
+
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <img src=".github/facebook-signin.gif" alt="gif do projeto" width="=800rem" />
 </p>
 
-**Descrição**
+### :computer: Projeto
 
-Tela de login antiga do facebook. Usando HTML, CSS e JS.
+Projeto desenvolvido durante o módulo de fundamentos do curso de desenvolvimento Web da Trybe. Consiste em um clone da página de login antiga do Facebook.
 
-#### :nut_and_bolt: Tecnologias
+### :boom: Habilidades desenvolvidas
+
+* Criar formulários em HTML;
+* Utilizar CSS Flexbox para criar layouts flexíveis;
+* Criar regras CSS específicas para serem aplicadas a dispositivos móveis;
+* Construir páginas que alteram o seu layout de acordo com a orientação da tela;
+
+_Fonte: repositório do projeto da Trybe_
+
+### ✨ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -15,16 +25,21 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [CSS3][css]
 - [Javascript][js] 
 
-
 [html]: https://developer.mozilla.org/pt-BR/docs/Web/HTML
 [css]: https://developer.mozilla.org/pt-BR/docs/Web/CSS
 [js]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 
-#### :thinking: Como rodar
+#### :rocket: Como rodar
 
 Você pode abrir o index.html no seu navegador ou usar a extenção [Live server]("https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer")
 
-#### :bust_in_silhouette: Autores
+Ou usar o lite-server.
+
+```bash
+npx lite-server .
+```
+
+#### :bust_in_silhouette: Autor
 
 <table>
   <tr>
