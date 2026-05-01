@@ -1,0 +1,16 @@
+{
+  "name": "facebook-signup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.30.3",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
