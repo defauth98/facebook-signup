@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "lite-server ./src"
+    "dev": "lite-server"
   },
   "keywords": [],
   "author": "",
