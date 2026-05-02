@@ -31,10 +31,20 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 #### :rocket: Como rodar
 
-Você pode abrir o index.html no seu navegador ou usar a extenção [Live server]("https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer")
+Instalar as dependências:
 
-Ou usar o lite-server.
+```bash
+pnpm install
+```
+
+Rodar o projeto:
 
 ```bash
 pnpm dev
+```
+
+Rodar os testes:
+
+```bash
+pnpm test
 ```

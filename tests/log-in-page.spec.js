@@ -10,7 +10,6 @@ describe("Login page", () => {
     await page.locator("#user-password").click();
     await page.locator("#user-password").fill("senha123");
     page.once("dialog", (dialog) => {
-      console.log(`Dialog message: ${dialog.message()}`);
       dialog.dismiss().catch(() => {});
     });
     await page.getByRole("button", { name: "Entrar" }).click();
@@ -30,7 +29,7 @@ describe("Login page", () => {
     await page.getByRole("textbox", { name: "Sobrenome" }).press("Tab");
     await page
       .getByRole("textbox", { name: "Celular ou email" })
-      .fill("neto.dani@mail.com");
+      .fill("mail@mail.com");
     await page.getByRole("textbox", { name: "Celular ou email" }).press("Tab");
     await page.getByRole("textbox", { name: "Nova senha" }).fill("123");
     await page.getByRole("textbox", { name: "Data de nascimento" }).click();
@@ -42,6 +41,6 @@ describe("Login page", () => {
     await page.getByRole("textbox", { name: "Gênero (opcional)" }).click();
     await page
       .getByRole("textbox", { name: "Gênero (opcional)" })
-      .fill("genero customizado");
+      .fill("Gênero customizado");
   });
 });
