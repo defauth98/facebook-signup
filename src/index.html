@@ -29,6 +29,7 @@
                 id="user-email-phone"
                 name="user-email-phone"
                 type="text"
+                data-testid="login-email-input"
               />
             </div>
             <div class="form-group">
@@ -39,10 +40,11 @@
                 id="user-password"
                 name="user-password-label"
                 type="text"
+                data-testid="login-password-input"
               />
             </div>
             <div class="form-control">
-              <button id="button-login">Entrar</button>
+              <button id="button-login" data-testid="login-button">Entrar</button>
             </div>
           </form>
           <a href="" id="forgot">Esqueceu a conta?</a>
@@ -67,6 +69,7 @@
               id="firstname"
               name="firstname"
               placeholder="Nome"
+              data-testid="firstname-input"
             />
             <input
               type="text"
@@ -74,6 +77,7 @@
               id="lastname"
               name="lastname"
               placeholder="Sobrenome"
+              data-testid="lastname-input"
             />
           </div>
 
@@ -83,6 +87,7 @@
             name="phone_email"
             id="email"
             placeholder="Celular ou email"
+            data-testid="email-input"
           />
           <input
             type="password"
@@ -90,6 +95,7 @@
             id="password"
             name="password"
             placeholder="Nova senha"
+            data-testid="password-input"
           />
 
           <div id="date-contianer">
@@ -102,21 +108,23 @@
               id="birthdate"
               name="birthdate"
               placeholder="dd/mm/aaaa"
+              data-testid="birthdate-input"
             />
           </div>
 
           <div>
             <label for="gender" id="label-gender">Gênero</label>
             <div id="inputs-container">
-              <input type="radio" name="gender" value="Feminino" checked />
+              <input type="radio" name="gender" value="Feminino" checked data-testid="gender-female" />
               <label for="gender">Feminino</label>
-              <input type="radio" name="gender" value="Masculino" />
+              <input type="radio" name="gender" value="Masculino" data-testid="gender-male" />
               <label for="gender">Masculino</label>
               <input
                 type="radio"
                 name="gender"
                 id="custom-gender"
                 value="Personalizado"
+                data-testid="gender-custom"
               />
               <label for="gender">Customizado</label>
             </div>
@@ -127,11 +135,12 @@
               type="text"
               name="gender-custom"
               placeholder="Gênero (opcional)"
+              data-testid="custom-gender-input"
             />
           </div>
 
           <div>
-            <button id="facebook-register" type="submit">Cadastre-se</button>
+            <button id="facebook-register" type="submit" data-testid="register-button">Cadastre-se</button>
           </div>
         </form>
       </div>

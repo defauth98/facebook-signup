@@ -1,0 +1,8 @@
+{
+  "port": 9000,
+  "open": false,
+  "logLevel": "info",
+  "server": {
+    "baseDir": "./src"
+  }
+}

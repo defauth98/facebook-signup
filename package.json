@@ -1,0 +1,22 @@
+{
+  "name": "facebook-signup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "pnpm exec playwright test",
+    "test:ui": "pnpm exec playwright test --ui",
+    "test:gen": "pnpm exec playwright codegen",
+    "test:report": " pnpm exec playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.30.3",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "lite-server": "^2.6.1"
+  }
+}
