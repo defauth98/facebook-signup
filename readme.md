@@ -1,5 +1,7 @@
 <h1 align="center">Facebook Sign In</h1>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2cc7a571-1a32-429d-b8a9-71a7544185ef/deploy-status)](https://app.netlify.com/projects/tubular-pegasus-93ef06/deploys)
+
 <p align="center">
   <img src=".github/facebook-signin.gif" alt="gif do projeto" width="=800rem" />
 </p>
